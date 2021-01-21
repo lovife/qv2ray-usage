@@ -1,0 +1,41 @@
+{
+    "author": "lovife <ranci9syo@gmail.com>",
+    "description": "作者太懒，没有写描述",
+    "domainStrategy": "AsIs",
+    "domains": {
+        "block": [
+            "geosite:category-ads-all"
+        ],
+        "direct": [
+            "geosite:private",
+            "geosite:apple-cn",
+            "geosite:google-cn",
+            "geosite:tld-cn",
+            "geosite:cn"
+        ],
+        "proxy": [
+            "geosite:geolocation-!cn"
+        ]
+    },
+    "ips": {
+        "block": [
+        ],
+        "direct": [
+            "223.5.5.5/32",
+            "119.29.29.29/32",
+            "180.76.76.76/32",
+            "114.114.114.114/32",
+            "geoip:cn",
+            "geoip:private"
+        ],
+        "proxy": [
+            "1.1.1.1/32",
+            "1.0.0.1/32",
+            "8.8.8.8/32",
+            "8.8.4.4/32",
+            "geoip:us",
+            "geoip:ca"
+        ]
+    },
+    "name": "20210121"
+}
